@@ -9,6 +9,11 @@
       Title="WelcomePage">
 
     <Grid>
-        
+        <Grid.Background>
+            <ImageBrush ImageSource="\pexels-pixabay-264905.jpg"/>
+        </Grid.Background>
+        <Label Content="Bob's Shop" HorizontalAlignment="Center" Margin="0,143,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="48" Background="#7FFFFFFF"/>
+        <Button Content="Welcome" HorizontalAlignment="Center" Margin="0,262,0,0" VerticalAlignment="Top" FontSize="36"/>
+
     </Grid>
 </Page>
